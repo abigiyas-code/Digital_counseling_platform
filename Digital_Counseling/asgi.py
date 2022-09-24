@@ -1,5 +1,5 @@
 """
-ASGI config for DigitalCounseling project.
+ASGI config for Digital_Counseling project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'DigitalCounseling.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Digital_Counseling.settings')
 
 application = get_asgi_application()
